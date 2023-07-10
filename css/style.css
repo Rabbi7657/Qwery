@@ -1,0 +1,306 @@
+/* ================================= common part css start=========================================== */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Open Sans", "sans-serif"; 
+}
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+/* ================================= common part css end=========================================== */
+/* ================================= navigation part css start=========================================== */
+nav {
+  padding-top: 35px;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+nav .logo {
+  width: 50%;
+}
+nav .navigation {
+  width: 50%;
+}
+nav .navigation ul {
+  display: flex;
+  column-gap: 60px;
+}
+nav .navigation ul li a {
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+  transition: 0.4s;
+}
+nav .navigation ul li a:hover {
+  color: #000;
+}
+/* ================================= navigation part css end=========================================== */
+/* ================================= banner part css start=========================================== */
+#banner {
+  background-image: url("../images/Banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 462px 0px;
+}
+#banner .content p {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  color: #ffc178;
+  margin-bottom: 38px;
+}
+#banner .content h1 {
+  font-size: 88px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #fff;
+  width: 858px;
+}
+#banner .content h1 span {
+  font-weight: 700;
+  font-size: 96px;
+  text-transform: capitalize;
+  color: #fff;
+}
+/* ================================= banner part css end=========================================== */
+/* ================================= about part css start=========================================== */
+#about {
+  margin: 286px 0px;
+}
+#about .main {
+  display: flex;
+  column-gap: 139px;
+}
+#about .main h3 {
+  color: #fbd784;
+  font-size: 18px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+#about .main h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#about .main p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#about .main a {
+  font-size: 18px;
+  color: #fbd784;
+  text-transform: uppercase;
+  line-height: 66px;
+}
+/* ================================= about part css end=========================================== */
+/* ================================= information part css start=========================================== */
+#information {
+  margin-top: 295px;
+  margin-bottom: 296px;
+}
+#information .bg {
+  background-image: url("../images/image2.webp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#information .bg .overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7) -0.01%,
+      rgba(0, 0, 0, 0) 69.38%
+    ),
+    linear-gradient(360deg, rgba(0, 0, 0, 0.2) -0.01%, rgba(0, 0, 0, 0) 100%);
+  padding-top: 559px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+#information .bg .overlay .content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+#information .bg .overlay .content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  color: #fbd784;
+}
+
+#information .bg .overlay .content h2 {
+  font-size: 64px;
+  font-weight: 700;
+  width: 932px;
+  margin: 14px 0px;
+}
+
+#information .bg .overlay .content p {
+  font-family: "open sans", "sans-serif";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 893px;
+}
+
+#information .bg .overlay .content a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fbd784;
+  margin-top: 26px;
+}
+/* ================================= information part css end=========================================== */
+/* ================================= culture part css start=========================================== */
+#culture {
+  margin-top: 296px;
+  margin-bottom: 199px;
+}
+#culture .content {
+  display: flex;
+  column-gap: 45px;
+  align-items: center;
+}
+#culture .content h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #fbd784;
+}
+#culture .content h2 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#culture .content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#culture .content a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #fbd784;
+}
+/* ================================= culture part css end=========================================== */
+/* ================================= footer part css start=========================================== */
+footer .footer_top .flex .footer_logo {
+  width: 50%;
+}
+footer .footer_top .flex .content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 18px;
+}
+footer .footer_top .flex .content p {
+  font-weight: 400;
+  font-size: 22px;
+}
+footer .footer_top .flex .content a {
+  font-weight: 700;
+  font-size: 17px;
+
+  color: #000;
+  padding: 18px 67px;
+  background-color: #ffa343;
+  border-radius: 10px;
+}
+footer .footer_bottom {
+  margin-top: 73px;
+}
+footer .footer_bottom .flex .item1 {
+  width: 28%;
+}
+footer .footer_bottom .flex {
+  column-gap: 301px;
+}
+footer .footer_bottom .flex .item1 h2 {
+  font-weight: 700;
+  font-size: 36px;
+  width: 379px;
+  margin-bottom: 49px;
+}
+footer .footer_bottom .flex .item1 p {
+  font-weight: 400;
+  font-size: 15px;
+}
+footer .footer_bottom .flex .item1 .icons {
+  margin-top: 34px;
+}
+footer .footer_bottom .flex .item1 .icons a {
+  color: white;
+  font-size: 15px;
+  margin-right: 29px;
+}
+footer .footer_bottom .flex .item2 {
+  display: flex;
+  width: 62%;
+}
+footer .footer_bottom .flex .item2 .item {
+  width: 30%;
+}
+footer .footer_bottom .flex .item2 .item h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffd1a0;
+  margin-bottom: 20px;
+}
+footer .footer_bottom .flex .item2 .item ul li {
+  margin-bottom: 10px;
+}
+footer .footer_bottom .flex .item2 .item ul li a {
+  font-weight: 400;
+  font-size: 19px;
+  color: white;
+}
+footer .copy {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  margin-top: 204px;
+  margin-bottom: 89px;
+  
+}
+/* ================================= footer part css end=========================================== */
